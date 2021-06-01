@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和茶网</title>
+  
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+   
+</head>
+<body>
+
+
+
+<div class="login-bg">
+   
+    <div class="container">
+        <div class="login clearfix">
+            <div class="leftBar col-md-6 col-sm-6">
+                <img src="../images/untitled.bmp" alt="登录">
+            </div>
+            <div class="regBox col-md-6 col-sm-6 col-xs-12">
+                <div class="row">
+                    <ul class="reg_title">
+                        <li class="col-md-6 col-sm-6 col-xs-6 on">
+                            <a href="javascript: void (0)">登录</a>
+                        </li>
+                        <li class="col-md-6 col-sm-6 col-xs-6">
+                            <a href="javascript: void (0)">新用户注册</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="reg_list visible" action="../html/index.html" method="post">
+                    <ul>
+                        <li class="clearfix">
+                            <label>登录名</label>
+                            <input type="text" name="username">
+                            <span>请输入您注册的登录名</span>
+                        </li>
+                        <li class="clearfix">
+                            <label>密码</label>
+                            <input type="password" name="password">
+                            <span><a href="javascript: void (0)">忘了密码？</a></span>
+                        </li>
+                        <li class="agree">
+                            <input class="login-bg" type="submit" name="submit">
+                        </li>
+                    </ul>
+                    <div class="more-way">
+                        <p>您还可以使用网站账号登录:</p>
+                        <p>
+                            <a href="javascript: void (0)"><img src="../images/login_alipay.png" alt="支付宝"></a>
+                            <a href="javascript: void (0)"><img src="../images/login_weibo.png" alt="微博"></a>
+                            <a href="javascript: void (0)"><img src="../images/login_qq.png" alt="qq"></a>
+                            <a href="javascript: void (0)"><img src="../images/login_wx.png" alt="微信"></a>
+                        </p>
+                    </div>
+                </form>
+                <form class="reg_list" action="../html/index.html" method="post">
+                    <ul>
+                        <li class="clearfix">
+                            <label for="firstName">登录名</label>
+                            <input type="text" id="firstName" name="username">
+                            <span>请输入你的账号</span>
+                        </li>
+                        <li class="clearfix">
+                            <label for="password1">密码</label>
+                            <input type="password" id="password1" name="password">
+                            <span>6-16位数字和字母组成,区分大小写</span>
+                        </li>
+                        <li class="clearfix">
+                            <label for="password2">确认密码</label>
+                            <input type="password" id="password2" name="repassword">
+                            <span>请重复输入上面的密码</span>
+                        </li>
+                        <li class="clearfix">
+                            <label for="code">验证码</label>
+                            <input type="text" id="code" name="code">
+                        <span>
+                            <img src="" alt=""> <a href="javascript: void(0)">换一个</a>
+                        </span>
+                        </li>
+                        <li class="agree clearfix">
+                            <input type="submit" name="submit">
+                            <a href="javascript: void (0)">阅读《用户协议》</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---==========================================注册=================================-->
+
+   
+
+
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+
+</body>
+</html>
